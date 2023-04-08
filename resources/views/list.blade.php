@@ -64,9 +64,9 @@
                                         </a>
                                     </li>
                                     <li class="ad aG">
-                                        <a href="/about"
+                                        <a href="https://www.instagram.com/osissmkn1mjene/"
                                             class="menu-scroll aH text- :aI group-hover:aJ aK lg:aL lg:aM lg:aN a8 aO lg:aP lg:aQ xl:aR">
-                                            About Me
+                                            Ikuti kami
                                         </a>
                                     </li>
 

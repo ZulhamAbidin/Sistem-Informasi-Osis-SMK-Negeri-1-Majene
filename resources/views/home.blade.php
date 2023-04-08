@@ -60,9 +60,9 @@
                                     </a>
                                 </li>
                                 <li class="ad aG">
-                                    <a href="/about"
+                                    <a href="https://www.instagram.com/osissmkn1mjene/"
                                         class="menu-scroll aH text- :aI group-hover:aJ aK lg:aL lg:aM lg:aN a8 aO lg:aP lg:aQ xl:aR">
-                                        About Me
+                                        Ikuti Kami
                                     </a>
                                 </li>
 
@@ -105,7 +105,7 @@
                             <a href="/blogs" class="aH a2P aI a1k a3q a1l hover:a2i a3F a13 a1p a1a a2j">
                                 Postingan
                             </a>
-                            <a href="/about"
+                            <a href="https://www.instagram.com/osissmkn1mjene/"
                                 class="aH a2P a1A a1 a29 :aI :aw :a29 a3q a1l hover:a3G :hover:a3G a3F a13 a1p a1a a2j">
                                 Profile Kami
                             </a>

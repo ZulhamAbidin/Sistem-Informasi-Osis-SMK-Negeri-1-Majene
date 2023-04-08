@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Startup Tailwind CSS Template</title>
+    <title>DETAIL</title>
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://saas-tailwind.preview.uideck.com/" />
     <meta property="twitter:title" content="Startup Tailwind | SaaS Web Template for Tailwind CSS" />
@@ -73,9 +73,9 @@
                                         </a>
                                     </li>
                                     <li class="ad aG">
-                                        <a href="/about"
+                                        <a href="https://www.instagram.com/osissmkn1mjene/"
                                             class="menu-scroll aH text- :aI group-hover:aJ aK lg:aL lg:aM lg:aN a8 aO lg:aP lg:aQ xl:aR">
-                                            About Me
+                                            Ikuti kami
                                         </a>
                                     </li>
 
