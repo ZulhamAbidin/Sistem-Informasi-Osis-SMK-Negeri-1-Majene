@@ -10,6 +10,8 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\AdminCategoryController;
 use App\Http\Controllers\DashboardBlogController;
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
