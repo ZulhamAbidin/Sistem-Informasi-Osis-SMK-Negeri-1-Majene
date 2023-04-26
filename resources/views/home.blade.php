@@ -59,6 +59,14 @@
                                         Postingan
                                     </a>
                                 </li>
+
+                                <li class="ad aG">
+                                    <a href="/welcome" class="menu-scroll aH text- :aI group-hover:aJ aK lg:aL lg:aM lg:aN a8 aO lg:aP lg:aQ xl:aR">
+                                        Struktur Organisasi
+                                    </a>
+                                </li>
+
+
                                 <li class="ad aG">
                                     <a href="https://www.instagram.com/osissmkn1mjene/"
                                         class="menu-scroll aH text- :aI group-hover:aJ aK lg:aL lg:aM lg:aN a8 aO lg:aP lg:aQ xl:aR">

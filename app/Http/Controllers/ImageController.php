@@ -39,11 +39,17 @@ class ImageController extends Controller
     {
         $request->validate([
             'name' => 'required|max:255',
+            'jurusan' => 'required|max:255',
+            'jabatan' => 'required|max:255',
+            'motto' => 'required|max:255',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
 
         $image = new Image;
         $image->name = $request->name;
+        $image->jabatan = $request->jabatan;
+        $image->jurusan = $request->jurusan;
+        $image->motto = $request->motto;
 
         if ($request->hasFile('image')) {
             $file = $request->file('image');
@@ -83,11 +89,18 @@ class ImageController extends Controller
     {
         $request->validate([
             'name' => 'required|max:255',
+            'jabatan' => 'required|max:255',
+            'jurusan' => 'required|max:255',
+            'motto' => 'required|max:255',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
 
         $image = Image::findOrFail($id);
         $image->name = $request->name;
+        $image->jabatan = $request->jabatan;
+        $image->jurusan = $request->jurusan;
+        $image->motto = $request->motto;
+
 
         if ($request->hasFile('image')) {
             $file = $request->file('image');
