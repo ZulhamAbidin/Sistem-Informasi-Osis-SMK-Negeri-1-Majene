@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+ {{-- <!DOCTYPE html>
 <html lang="en" class="a0">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
@@ -61,7 +61,7 @@
                                 </li>
 
                                 <li class="ad aG">
-                                    <a href="/welcome" class="menu-scroll aH text- :aI group-hover:aJ aK lg:aL lg:aM lg:aN a8 aO lg:aP lg:aQ xl:aR">
+                                    <a href="/" class="menu-scroll aH text- :aI group-hover:aJ aK lg:aL lg:aM lg:aN a8 aO lg:aP lg:aQ xl:aR">
                                         Struktur Organisasi
                                     </a>
                                 </li>
@@ -311,4 +311,204 @@
 </html> 
 
 
+ --}}
 
+
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+ </head>
+ <body class="bg-white dark:bg-slate-900">
+
+    <nav class="absolute  w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            </a>
+            <div class="flex md:order-2">
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                    started</button>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="relative h-32 w-full z-0">
+            <div class="absolute top-0 right-0 h-16 w-fit">
+                <svg width="450" height="556" viewBox="0 0 450 556" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="277" cy="63" r="225" fill="url(#paint0_linear_25:217)" />
+                    <circle cx="17.9997" cy="182" r="18" fill="url(#paint1_radial_25:217)" />
+                    <circle cx="76.9997" cy="288" r="34" fill="url(#paint2_radial_25:217)" />
+                    <circle cx="325.486" cy="302.87" r="180" transform="rotate(-37.6852 325.486 302.87)"
+                        fill="url(#paint3_linear_25:217)" />
+                    <circle opacity="0.8" cx="184.521" cy="315.521" r="132.862" transform="rotate(114.874 184.521 315.521)"
+                        stroke="url(#paint4_linear_25:217)" />
+                    <circle opacity="0.8" cx="356" cy="290" r="179.5" transform="rotate(-30 356 290)"
+                        stroke="url(#paint5_linear_25:217)" />
+                    <circle opacity="0.8" cx="191.659" cy="302.659" r="133.362" transform="rotate(133.319 191.659 302.659)"
+                        fill="url(#paint6_linear_25:217)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_25:217" x1="-54.5003" y1="-178" x2="222" y2="288"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#4A6CF7" />
+                            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                        </linearGradient>
+                        <radialGradient id="paint1_radial_25:217" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(17.9997 182) rotate(90) scale(18)">
+                            <stop offset="0.145833" stop-color="#4A6CF7" stop-opacity="0" />
+                            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.08" />
+                        </radialGradient>
+                        <radialGradient id="paint2_radial_25:217" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(76.9997 288) rotate(90) scale(34)">
+                            <stop offset="0.145833" stop-color="#4A6CF7" stop-opacity="0" />
+                            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0.08" />
+                        </radialGradient>
+                        <linearGradient id="paint3_linear_25:217" x1="226.775" y1="-66.1548" x2="292.157" y2="351.421"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#4A6CF7" />
+                            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_25:217" x1="184.521" y1="182.159" x2="184.521" y2="448.882"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#4A6CF7" />
+                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint5_linear_25:217" x1="356" y1="110" x2="356" y2="470"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#4A6CF7" />
+                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </linearGradient>
+                        <linearGradient id="paint6_linear_25:217" x1="118.524" y1="29.2497" x2="166.965" y2="338.63"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#4A6CF7" />
+                            <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="absolute left-0 top-96 h-16 w-fit">
+                <svg width="364" height="201" viewBox="0 0 364 201" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5.88928 72.3303C33.6599 66.4798 101.397 64.9086 150.178 105.427C211.155 156.076 229.59 162.093 264.333 166.607C299.076 171.12 337.718 183.657 362.889 212.24"
+                            stroke="url(#paint0_linear_25:218)" />
+                        <path
+                            d="M-22.1107 72.3303C5.65989 66.4798 73.3965 64.9086 122.178 105.427C183.155 156.076 201.59 162.093 236.333 166.607C271.076 171.12 309.718 183.657 334.889 212.24"
+                            stroke="url(#paint1_linear_25:218)" />
+                        <path
+                            d="M-53.1107 72.3303C-25.3401 66.4798 42.3965 64.9086 91.1783 105.427C152.155 156.076 170.59 162.093 205.333 166.607C240.076 171.12 278.718 183.657 303.889 212.24"
+                            stroke="url(#paint2_linear_25:218)" />
+                        <path
+                            d="M-98.1618 65.0889C-68.1416 60.0601 4.73364 60.4882 56.0734 102.431C120.248 154.86 139.905 161.419 177.137 166.956C214.37 172.493 255.575 186.165 281.856 215.481"
+                            stroke="url(#paint3_linear_25:218)" />
+                        <circle opacity="0.8" cx="214.505" cy="60.5054" r="49.7205" transform="rotate(-13.421 214.505 60.5054)"
+                            stroke="url(#paint4_linear_25:218)" />
+                        <circle cx="220" cy="63" r="43" fill="url(#paint5_radial_25:218)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_25:218" x1="184.389" y1="69.2405" x2="184.389" y2="212.24"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#4A6CF7" stop-opacity="0" />
+                                <stop offset="1" stop-color="#4A6CF7" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_25:218" x1="156.389" y1="69.2405" x2="156.389" y2="212.24"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#4A6CF7" stop-opacity="0" />
+                                <stop offset="1" stop-color="#4A6CF7" />
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_25:218" x1="125.389" y1="69.2405" x2="125.389" y2="212.24"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#4A6CF7" stop-opacity="0" />
+                                <stop offset="1" stop-color="#4A6CF7" />
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_25:218" x1="93.8507" y1="67.2674" x2="89.9278" y2="210.214"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#4A6CF7" stop-opacity="0" />
+                                <stop offset="1" stop-color="#4A6CF7" />
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_25:218" x1="214.505" y1="10.2849" x2="212.684" y2="99.5816"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#4A6CF7" />
+                                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+                            </linearGradient>
+                            <radialGradient id="paint5_radial_25:218" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(220 63) rotate(90) scale(43)">
+                                <stop offset="0.145833" stop-color="white" stop-opacity="0" />
+                                <stop offset="1" stop-color="white" stop-opacity="0.08" />
+                            </radialGradient>
+                        </defs>
+                </svg>
+            </div>
+        </div>
+    </section>
+   
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+            <h1
+                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                We invest in the world’s potential</h1>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Here at
+                Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive
+                economic growth.</p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="#"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    Get started
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    Learn more
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    
+ </body>
+ </html>
