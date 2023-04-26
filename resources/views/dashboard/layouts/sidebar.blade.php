@@ -120,6 +120,38 @@
             @can('admin')
 
             <div class="side-nav__devider my-3"></div>
+            
+            <li>
+                <a href="/welcome" class="side-menu {{ Request::is('/welcome') ? 'side-menu--active' : ''  }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="users"
+                        data-lucide="users" class="lucide lucide-users block mx-auto">
+                        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 00-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 010 7.75"></path>
+                    </svg>
+                    <div class="side-menu__title">
+                        Lihat Struktur Organisasi
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/images/" class="side-menu {{ Request::is('/images') ? 'side-menu--active' : ''  }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="edit" data-lucide="edit"
+                        class="lucide lucide-edit block mx-auto">
+                        <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"></path>
+                        <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                    </svg>
+                    <div class="side-menu__title">
+                        Edit Struktur Organisasi
+                    </div>
+                </a>
+            </li>
+
+            <div class="side-nav__devider my-3"></div>
 
             <li>
                 <a href="/dashboard/user/"
@@ -155,7 +187,7 @@
                 </a>
             </li>
 
-        @endcan
+             @endcan
 
         <div class="side-nav__devider my-3"></div>
 
