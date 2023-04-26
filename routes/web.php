@@ -9,6 +9,8 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\AdminCategoryController;
 use App\Http\Controllers\DashboardBlogController;
+use App\Http\Controllers\ImageController;
+use App\Http\Controllers\HomeController;
 
 
 
@@ -37,6 +39,14 @@ Route::get('/about', function () {
         "gambar" => "zlhm.jpg",
     ]);
 });
+
+
+
+
+
+Route::get('welcome', [HomeController::class, "index"]);
+
+Route::resource('images', ImageController::class)->middleware('auth');
 
 Route::get('/', [BlogController::class, "index2"]);
 
