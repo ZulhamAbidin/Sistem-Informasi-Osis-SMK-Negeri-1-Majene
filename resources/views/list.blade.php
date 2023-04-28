@@ -2,7 +2,7 @@
 
 @section('home')
 
-    <section class="bg-transparent mb-48">
+    <section class="bg-transparent">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
                 PORTAL OSIS SMK NEGERI 1 MAJENE</h1>
@@ -13,53 +13,74 @@
         </div>
     </section>
 
+
     <section>
-        <div class="grid grid-cols-1 bg-white md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 gap-y-10 mx-10">
+        
 
-            @foreach ($blogs->skip(0) as $blog)
+        <div class="bg-white">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-10">
+                
+                <div class="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-gray-200 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                   
+                @foreach ($blogs->skip(0) as $blog)
 
-            
-                <div class="mb-6 lg:mb-0 col-span-1">
-                    <div class="relative block bg-white rounded-lg shadow-lg">
-                        <div class="flex">
-                            <div class="relative overflow-hidden bg-no-repeat bg-cover relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
-                                data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <article class="flex max-w-xl flex-col items-start justify-between border-t py-4">
+                        <div class="flex items-center gap-x-4 text-xs">
+                            <time datetime="2020-03-16" class="text-gray-500">{{ $blog->category->slug }}</time>
+                            <a href=""
+                                class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{  $blog->created_at->diffForHumans()  }}</a>
+                        </div>
 
+                       <div class="mt-4">                            
                                 @if ($blog->image)
-                                <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->category->name }}" class="rounded-t-lg w-full" />
+                                <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->category->name }}"
+                                    class="rounded-t-lg w-full" />
                                 @else
-                                <img src="http://source.unsplash.com/500x400?{{ $blog->category->name }}" class="rounded-t-lg w-full"
+                                <img src="http://source.unsplash.com/500x400?{{ $blog->category->name }}" class="rounded-lg w-full"
                                     alt="{{ $blog->category->name }}">
-                                @endif
+                                @endif                        
+                        </div>
 
-                                
+                        <div class="group relative">
+                            <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                <a href="#">
+                                    <span class="absolute inset-0"></span>
+                                    {{ $blog->title }}
+                                </a>
+                            </h3>
+                            <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Illo sint voluptas. Error voluptates
+                                {{ $blog->excerpt }}</p>
+                        </div>
+
+
+
+                        <div class="relative mt-8 flex items-center gap-x-4">
+                            <img src="{{ asset('assets/image/osis.svg') }}" alt="" class="h-10 w-10 rounded-full bg-gray-50">
+                            <div class="text-sm leading-6">
+                                <p class="font-semibold text-gray-900">
+                                    <a href="/authors/{{ $blog->author->username }}">
+                                        <span class="absolute inset-0"></span>
+                                        {{ $blog->author->username }}
+                                    </a>
+                                </p>
+                                <p class="text-gray-600">{{ $blog->category->slug }}</p>
                             </div>
-                        </div>
+                         </div>
 
-                        <div class="p-6">
-                            <h5 class="font-bold text-lg mb-4">{{ $blog->title }}</h5>
-                            <p class="text-gray-500 ">
-                                <small>Published 
-                                    <u>{{ $blog->created_at->diffForHumans() }}</u> by
-                                    <a href="/authors/{{ $blog->author->username }}" class="text-gray-900">{{ $blog->author->name }}</a>
-                                    <p class="text-sm Uppercase text-md text-gray-900">di {{ $blog->category->slug }}</p>
-                                </small>
-                            </p>
-                            <p class="mb-4 pb-2 mt-4 text-justify">
-                                {{ $blog->excerpt }}
-                            </p>
-                            <a href="/blogs/{{ $blog->slug }}" data-mdb-ripple="true" data-mdb-ripple-color="light"
-                                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Read
-                                more</a>
-                        </div>
-                    </div>
+                         <div class="a">
+                            <a href="/blogs/{{ $blog->slug }}"
+                                class="text-white mt-3 bg-blue-700 px-20 block hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xs text-center py-2 mr-2 mb-2">Lihat Detail</A>
+                         </div>
+
+
+                    </article>
+
+                @endforeach
+
                 </div>
-            
-
-            @endforeach
+            </div>
         </div>
 
-       
     </section>
 
     <footer class="bg-gray-50 rounded-lg shadow py-6 mt-10 mx-auto border">
