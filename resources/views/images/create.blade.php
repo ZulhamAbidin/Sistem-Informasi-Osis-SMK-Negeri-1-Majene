@@ -85,13 +85,24 @@
                             <div class="mt-3">
                                 <label for="jabatan" class="form-label">Jabatan</label>
                                 <select data-placeholder="Select your location" name="jabatan" class="tom-select w-full @error('jabatan') is-invalid @enderror" id="jabatan">
-                                    <option value="ketua umum">ketua umum</option>
-                                    <option value="wakil ketua">wakil ketua</option>
-                                    <option value="sekretaris">sekretaris</option>
-                                    <option value="bendahara">bendahara</option>
-                                    <option value="ketua bidang">ketua bidang</option>
+                                    <option value="Ketua">Ketua</option>
+                                    <option value="Wakil Ketua I">Wakil Ketua I</option>
+                                    <option value="Wakil Ketua II">Wakil Ketua II</option>
+                                    <option value="Sekretaris">Sekretaris</option>
+                                    <option value="Wakil Sekretaris">Wakil Sekretaris</option>
+                                    <option value="Bendahara">Bendahara</option>
+                                    <option value="Seksi Bidang Keimanan Dan Ketaqwaan Terhadap Tuhan YME">Seksi Bidang Keimanan Dan Ketaqwaan Terhadap Tuhan YME</option>
+                                    <option value="Seksi Bidang Budi Pekerti Luhur dan Akhlak Mulia">Seksi Bidang Budi Pekerti Luhur dan Akhlak Mulia</option>
+                                    <option value="Seksi Bidang Kepribadian Unggul, Wawasan Kebangasaan dan Bela Negara">Seksi Bidang Kepribadian Unggul, Wawasan Kebangasaan dan Bela Negara</option>
+                                    <option value="Seksi Bidang Demokrasi, HAM Pendidikan Politik, Lingkungan Hidup, Kepekaan dan Toleransi Sosial">Seksi Bidang Demokrasi, HAM Pendidikan Politik, Lingkungan Hidup, Kepekaan dan Toleransi Sosial</option>
+                                    <option value="Seksi Bidang Prestasi Seni, dan Olahraga Sesuai Bakat dan Minat">Seksi Bidang Prestasi Seni, dan Olahraga Sesuai Bakat dan Minat</option>
+                                    <option value="Seksi Bidang Kreatifitas, Keterampilan dan Kewiraswastaan">Seksi Bidang Kreatifitas, Keterampilan dan Kewiraswastaan</option>
+                                    <option value="Seksi Bidang Kualitas Jasmani Kesehatan dan gizi">Seksi Bidang Kualitas Jasmani Kesehatan dan gizi</option>
+                                    <option value="Seksi Bidang Saastra Dan Budaya">Seksi Bidang Saastra Dan Budaya</option>
+                                    <option value="Seksi Bidang Teknologi Informasi dan Komunikasi">Seksi Bidang Teknologi Informasi dan Komunikasi</option>
+                                    <option value="Seksi Bidang Komunikasi dalam Bahasa Inggris">Seksi Bidang Komunikasi dalam Bahasa Inggris</option>
                                 </select>
-                               
+                
                                 @error('jabatan')
                                 <div class="alert alert-primary alert-dismissible mt-2 show flex items-center mb-2"
                                     role="alert">
