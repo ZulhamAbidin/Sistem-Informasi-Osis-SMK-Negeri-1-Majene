@@ -84,7 +84,7 @@
 
                             <div class="mt-3">
                                 <label for="jabatan" class="form-label">Jabatan</label>
-                                <select data-placeholder="Select your location" name="jabatan" class="tom-select w-full @error('jabatan') is-invalid @enderror" id="jabatan">
+                                <select data-placeholder="Pilih Jabatan" name="jabatan" class="tom-select w-full @error('jabatan') is-invalid @enderror" id="jabatan">
                                     <option value="Ketua">Ketua</option>
                                     <option value="Wakil Ketua I">Wakil Ketua I</option>
                                     <option value="Wakil Ketua II">Wakil Ketua II</option>

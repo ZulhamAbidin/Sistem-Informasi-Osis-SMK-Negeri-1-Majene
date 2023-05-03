@@ -3,7 +3,7 @@
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
                 <img src="{{ asset('assets/image/osis.svg') }}" class="h-8 mr-3" alt="Flowbite Logo">
-                <img src="{{ asset('assets/image/smk.jpeg') }}" class="h-8 mr-3 bg-transparent" alt="Flowbite Logo">
+                <img src="{{ asset('assets/image/smk.webp') }}" class="h-8 mr-3 bg-transparent" alt="a">
                 <span class="self-center text-2xl font-semibold whitespace-nowrap "></span>
             </a>
 

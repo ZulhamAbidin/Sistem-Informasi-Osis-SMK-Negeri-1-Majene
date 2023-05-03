@@ -46,7 +46,7 @@
                             <div class="grid grid-cols-12 gap-6 mt-5">
                                 <div class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2">
 
-                                    <a href="/images/create" class="btn btn-primary shadow-md mr-2">Add New User</a>
+                                    <a href="/images/create" class="btn btn-primary shadow-md mr-2">Unggah Data Pengurus</a>
 
                                     <div class="dropdown">
                                         <a href="/images/create" class="dropdown-toggle btn px-2 box" aria-expanded="false" data-tw-toggle="dropdown">

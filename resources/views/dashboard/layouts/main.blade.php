@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="{{ asset('dist/images/logo.svg') }}" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> {{ $judul ?? 'Lokasi' }}</title>
+    <title> {{ $judul ?? 'DASHBOARD' }}</title>
     <link rel="stylesheet" href="{{ asset('dist/css/app.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/tailwind.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/trix.css') }}" />

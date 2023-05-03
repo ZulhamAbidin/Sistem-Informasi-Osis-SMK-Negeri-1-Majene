@@ -27,10 +27,10 @@
                     <div class="flex flex-col items-center pb-10 py-4">
                         <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="{{ asset('storage/public/images/'.$Ketua->file_path) }}"
                             alt="" />
-                        <h5 class="mb-1 text-xl font-medium text-gray-900 ">{{ $Ketua->name }}</h5>
-                        <h5 class="mb-1 font-medium text-gray-900 text-xs  text-center  py-1 px-6">{{ $Ketua->jabatan }} Seksi Bidang Demokrasi, HAM Pendidikan Politik, Lingkungan Hidup, Kepekaan dan Toleransi Sosial </h5>
+                        <h5 class="mb-1 text-xl font-medium text-gray-900  ">{{ $Ketua->name }}</h5>
+                        <h5 class="mb-1 font-medium text-xs bg-blue-600 rounded-lg mt-2 text-white uppercase text-center  py-1 px-6">{{ $Ketua->jabatan }} UMUM </h5>
                         
-                        <div class="body italic mt-4 text-sm text-center px-4">"{{ $Ketua->motto }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem, nesciunt explicabo possimus aliquam recusandae! Illum maiores praesentium aut velit recusandae laborum qui architecto, dicta molestias repellendus minima. Libero, sunt. "</div>
+                        <div class="body italic mt-4 text-sm text-center px-4">"{{ $Ketua->motto }} "</div>
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg"
                         src="{{ asset('storage/public/images/'.$WakilKetuaI->file_path) }}" alt="" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 ">{{ $WakilKetuaI->name }}</h5>
-                    <h5 class="mb-1 font-medium text-gray-900 text-xs  text-center  py-1 px-6">{{ $WakilKetuaI->jabatan }}</h5>
+                    <h5 class="mb-1 font-medium text-xs bg-blue-600 rounded-lg mt-2 text-white uppercase text-center  py-1 px-6">{{ $WakilKetuaI->jabatan }}</h5>
             
                     <div class="body italic mt-4 text-sm text-center px-4">"{{ $WakilKetuaI->motto }}"</div>
                 </div>
@@ -59,7 +59,7 @@
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg"
                         src="{{ asset('storage/public/images/'.$WakilKetuaII->file_path) }}" alt="" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 ">{{ $WakilKetuaII->name }}</h5>
-                    <h5 class="mb-1 font-medium text-gray-900 text-xs  text-center  py-1 px-6">{{ $WakilKetuaII->jabatan }}</h5>
+                    <h5 class="mb-1 font-medium text-xs bg-blue-600 rounded-lg mt-2 text-white uppercase text-center  py-1 px-6">{{ $WakilKetuaII->jabatan }}</h5>
             
                     <div class="body italic mt-4 text-sm text-center px-4">"{{ $WakilKetuaII->motto }}"</div>
                 </div>
@@ -75,7 +75,7 @@
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg"
                         src="{{ asset('storage/public/images/'.$Sekretaris->file_path) }}" alt="" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 ">{{ $Sekretaris->name }}</h5>
-                    <h5 class="mb-1 font-medium text-gray-900 text-xs  text-center  py-1 px-6">{{ $Sekretaris->jabatan }}</h5>
+                    <h5 class="mb-1 font-medium text-xs bg-blue-600 rounded-lg mt-2 text-white uppercase text-center  py-1 px-6">{{ $Sekretaris->jabatan }}</h5>
             
                     <div class="body italic mt-4 text-sm text-center px-4">"{{ $Sekretaris->motto }}"</div>
                 </div>
@@ -93,7 +93,7 @@
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg"
                         src="{{ asset('storage/public/images/'.$WakilSekretaris->file_path) }}" alt="" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 ">{{ $WakilSekretaris->name }}</h5>
-                    <h5 class="mb-1 font-medium text-gray-900 text-xs  text-center  py-1 px-6">{{ $WakilSekretaris->jabatan }}</h5>
+                    <h5 class="mb-1 font-medium text-xs bg-blue-600 rounded-lg mt-2 text-white uppercase text-center  py-1 px-6">{{ $WakilSekretaris->jabatan }}</h5>
             
                     <div class="body italic mt-4 text-sm text-center px-4">"{{ $WakilSekretaris->motto }}"</div>
                 </div>
@@ -108,7 +108,7 @@
                     <img class="w-24 h-24 mb-3 rounded-full shadow-lg"
                         src="{{ asset('storage/public/images/'.$Bendahara->file_path) }}" alt="" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 ">{{ $Bendahara->name }}</h5>
-                    <h5 class="mb-1 font-medium text-gray-900 text-xs  text-center  py-1 px-6">{{ $Bendahara->jabatan }}</h5>
+                    <h5 class="mb-1 font-medium text-xs bg-blue-600 rounded-lg mt-2 text-white uppercase text-center  py-1 px-6">{{ $Bendahara->jabatan }}</h5>
             
                     <div class="body italic mt-4 text-sm text-center px-4">"{{ $Bendahara->motto }}"</div>
                 </div>
