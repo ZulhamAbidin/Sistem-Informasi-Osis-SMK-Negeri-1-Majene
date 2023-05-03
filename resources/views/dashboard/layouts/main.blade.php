@@ -2,7 +2,7 @@
 <html lang="en" class="light">
 <head>
     <meta charset="utf-8">
-    <link href="{{ asset('dist/images/logo.svg') }}" rel="shortcut icon">
+    <link href="{{ asset('assets/image/osis.svg') }}" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> {{ $judul ?? 'DASHBOARD' }}</title>
     <link rel="stylesheet" href="{{ asset('dist/css/app.css') }}" />
