@@ -2,11 +2,11 @@
 
 @section('home')
 
-    <section class="bg-transparent">
+    <section class="bg-transparent absolute md:static">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
+            <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
                 PORTAL OSIS SMK NEGERI 1 MAJENE</h1>
-            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48">Organisasi ini memiliki peran
+            <p class="mb-8 text-md px-2 font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48">Organisasi ini memiliki peranaaa
                 sebagai penggerak siswa untuk aktif berkontribusi di sekolah.</p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             </div>
@@ -17,7 +17,7 @@
     <section>
         
 
-        <div class="bg-white">
+        <div class="bg-white absolute md:static">
             <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-10">
                 
                 <div class="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-gray-200 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -48,7 +48,7 @@
                                     {{ $blog->title }}
                                 </a>
                             </h3>
-                            <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Illo sint voluptas. Error voluptates
+                            <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                                 {{ $blog->excerpt }}</p>
                         </div>
 
@@ -84,10 +84,9 @@
     </section>
 
     <footer class="bg-gray-50 rounded-lg shadow py-6 mt-10 mx-auto border">
-            <span class="block text-sm text-gray-500 sm:text-center">© 2023 <a href="" class="hover:underline">KKN PPL SMK NEGERI MAJENE ANG.XXVI</a>. All Rights Reserved.</span>
-    </footer>
+            <span class="block text-sm text-gray-500 sm:text-center text-center">© 2023 <a href="https://www.instagram.com/kknppl_smkn1majene/" class="hover:underline">KKN PPL SMK NEGERI MAJENE ANG.XXVI</a>. All Rights Reserved.</span>
+</footer>
 
 
 
 @endsection
-

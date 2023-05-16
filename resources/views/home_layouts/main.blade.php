@@ -12,7 +12,7 @@
 
 <body>
 
-    <section>
+    <section class="z-10">
         <div class="relative h-32 w-full z-0">
             <div class="absolute top-0 right-0 h-16 w-fit">
                 <svg width="450" height="556" viewBox="0 0 450 556" fill="none" xmlns="http://www.w3.org/2000/svg">
